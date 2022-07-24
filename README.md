@@ -1,0 +1,2 @@
+# cnmc
+devops automatic synchronize
