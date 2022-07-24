@@ -53,7 +53,8 @@ class MACD(BaseEstimator, TransformerMixin):
     flg_zcore:
     See Also
     --------
-    https://www.investopedia.com/terms/m/macd.asp
+    http://www.cnmc.com.cn/
+    http://www.cnmc.com/
     """
 
     def __init__(self, short_tau=5, long_tau=20, zscore_tau=60, flg_zcore=True):
