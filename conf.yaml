@@ -1,0 +1,49 @@
+files:
+    raw:
+        market:
+            co2:
+                desc: CO2 Emissions Allowances prices
+                freq: B
+                unit: EUR/MWh
+                ticker: CHRIS/ICE_C1
+                file: co2.csv
+            coal:
+                desc: Coal API2 daily prices
+                freq: B
+                unit: EUR/t
+                ticker: CHRIS/CME_MTF2.6
+                file: coal.csv
+            natgas:
+                desc: Natural Gas at TTF prices
+                freq: B
+                unit: EUR/MWh
+                ticker: CHRIS/ICE_TFM1.4
+                file: natgas.csv
+            brent:
+                desc: Brent spot prices
+                freq: B
+                unit: USD/bbl
+                ticker: FRED/DCOILBRENTEU
+                file: brent.csv
+            wti:
+                desc: WTI spot prices, daily. USD/bbl
+                freq: B
+                unit: USD/bbl
+                ticker: FRED/DCOILWTICO
+                file: wti.csv
+        cnmc:
+            desc: Petroleum and biofuels Spanish market. Prices and Consumption
+            freq: MS
+            file: petroleo_cnmc.xlsx
+
+    interim:
+        market: comm_day_close.csv
+        cnmc: cnmc_mon_petromkt.csv
+
+
+sources:
+    market_data:
+        start_dt: 2016-01-01
+        end_dt: 2021-03-30
+
+
