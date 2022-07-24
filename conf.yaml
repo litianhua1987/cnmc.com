@@ -37,13 +37,15 @@ files:
             file: petroleo_cnmc.xlsx
 
     interim:
-        market: comm_day_close.csv
-        cnmc: cnmc_mon_petromkt.csv
+        market: cnmc.com.csv
+        cnmc: cnmc.com.cn.csv
 
 
 sources:
     market_data:
         start_dt: 2016-01-01
         end_dt: 2021-03-30
+        
+        
 
 
